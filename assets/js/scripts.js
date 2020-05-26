@@ -1,4 +1,7 @@
 (function($) {
+    
+    // If this product doesn't have dynamic pricing then stop
+    if (typeof window._dynamic_pricing === 'undefined') return;
 
     $('document').ready(function() {
 
